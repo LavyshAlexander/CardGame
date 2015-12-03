@@ -1,0 +1,7 @@
+<div class="header"><b><a href="https://github.com/LavyshAlexander/CardGame">CardGame</a></b> | Found cards: {{ totalFount }} / {{ cards.length }} </div>
+<div class="deck">
+    <div class="card" ng-repeat="(key,card) in cards" id="card-{{key}}" ng-click="checkCard('card-'+key, $event)"
+         data-card-name="{{card.name}}"  data-card-image="resources/images/cards/{{card.image}}">
+        <img ng-src="{{backcover}}">
+    </div>
+</div>
