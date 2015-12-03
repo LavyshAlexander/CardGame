@@ -54,10 +54,10 @@ it easier to serve the files by a webserver.*
 We have preconfigured the project with a simple development web server.  The simplest way to start
 this server is:
 * Edit loom/cardgame.dev.nc with your paths
-* Copy || Symlink loom/cardgame.dev.nc to yours Nginx enabled dir
+* Copy or symlink loom/cardgame.dev.nc to yours Nginx enabled dir
 * Restart local Nginx server
 * Edit your hosts file, add there line: 127.0.0.1	cardgame.dev
-* Open your browser with link (http://cardgame.dev)[http://cardgame.dev]
+* Open your browser with link [http://cardgame.dev](http://cardgame.dev)
 
 
 Or:
@@ -66,7 +66,7 @@ Or:
 npm start
 ```
 
-Now browse to the app at (http://localhost:8000/app/)[http://localhost:8000/app/].
+Now browse to the app at [http://localhost:8000/app/](http://localhost:8000/app/).
 
 
 
